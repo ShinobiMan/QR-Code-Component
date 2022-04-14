@@ -1,0 +1,38 @@
+@font-face {
+    font-family: myFont;
+    font-weight: 400, 700;
+    src: url("https://fonts.google.com/specimen/Outfit");
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.main-container {
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: 25%;
+    border-radius: 25px;
+}
+
+.sec-container {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto auto auto;
+}
+
+p, h2 {
+    text-align: center;
+    font-family: myFont;
+}
+
+p {
+    font-size: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 25px;
+}
